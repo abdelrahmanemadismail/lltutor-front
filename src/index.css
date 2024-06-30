@@ -1,0 +1,16 @@
+@import url(./Fonts/Fonts.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+ol {
+    list-style-type: decimal;
+}
+
+ul {
+    list-style-type: none;
+}

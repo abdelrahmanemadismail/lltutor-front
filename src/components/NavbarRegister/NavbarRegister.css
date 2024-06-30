@@ -1,0 +1,13 @@
+#authentication-navbar{
+    height: 80px;
+    background-color: transparent;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+#responsive-image-authentication{
+    width: 100%;
+    max-width: 200px;
+    height: 80px;
+    margin-left: 75px;
+}

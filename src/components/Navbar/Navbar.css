@@ -1,0 +1,210 @@
+#main-navbar{
+    height: 60px;
+    background-color: white;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    box-shadow: 0 5px 5px #12121233;
+}
+
+#main-navbar .nav-toggler{
+    font-size: 1.2rem !important;
+    border: 0.2px solid #12121233 !important;
+}
+
+#main-navbar .nav-toggler:focus{ box-shadow: 0 0 5px #12121233 !important;}
+
+.offcanvas-header{ 
+    width: 100%;
+    height: 110px;
+    position: relative;
+}
+
+.myStyledBtnClose{
+    position: absolute;
+    top: 0;
+    right:0;
+    transform: translate(-40%, 40%);
+    -webkit-transform: translate(-40%, 40%);
+    -moz-transform: translate(-40%, 40%);
+    -ms-transform: translate(-40%, 40%);
+    -o-transform: translate(-40%, 40%);
+}
+
+.myStyledBtnClose:focus{ box-shadow: 0 0 5px #121212 !important;}
+
+.offcanvasImage{
+    width: 90%;
+    height: 70px;
+    position: relative;
+}
+
+.offcanvasImgResponsive{
+    width: 100%;
+    max-width: 220px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
+
+.offcanvas-title{
+    width: 100%;
+    height:80px;
+    font-size: 1.8rem;
+    line-height: 2.5;
+    text-align: center;
+    font-weight: 600;
+}
+
+.offcanvas-body{
+    font-size: 1.4rem;
+}
+
+.offcanvas-list-container{
+    width: 100%;
+    height: 650px;
+    padding-left: 0;
+}
+
+.offcanvas-list{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.offcanvas-list .btn-offcanvas-list{
+    width: 100%;
+    height: 100%;
+    text-align: start;
+    /* line-height: 2.5; */
+    padding: 3.5% 4%;
+    letter-spacing: 0.5px;
+    font-weight: 600;
+    color: #121212;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.offcanvas-list .btn-offcanvas-list:hover{
+    background-color: #121212 !important;
+    color: white;
+}
+
+.offcanvas-list .btn-offcanvas-list i{ margin: 0 0.4rem;}
+
+/* ----------------------------------------- */
+
+/* RIGHT SIDE NAVBAR */
+
+.right-nav-container{
+    width: 26%;
+    height: 100%;
+}
+.right-nav-container div{ padding: 0px 0px;}
+
+.changeLang-container{ position: relative;}
+
+.changeLang{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: none;
+    padding-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.changeLang-container::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url('./../../assets/down-arrow.png') no-repeat center center;
+    background-size: contain;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+}
+
+.notificationBtn-container{ display: flex; justify-content: center;}
+
+.notification-btn{
+    width: 50%;
+    height: 100%;
+    border: 0;
+    outline: 0;
+    background-color: white;
+    position: relative;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.notification-btn i{ font-size: 1.5rem;}
+
+.icon-button__badge{
+    width: 17.5px;
+    height: 17.5px;
+    font-size: 12px;
+    position: absolute;
+    top: -6px;
+    right: 14px;
+    background-color: #F92B2B;
+    color: white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+.account-name-container{ 
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+
+.login-btn-container-course{ 
+    display: flex;
+}
+
+.login-btn-nav-course{
+    width: 100% !important; 
+    height: 100% !important;
+    text-align: center;
+    line-height: 2;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: white;
+    background-color: #121212;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+/* font colors */
+
+.c-grey-mine{ color: #535353;}

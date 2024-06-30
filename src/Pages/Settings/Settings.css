@@ -1,0 +1,150 @@
+#settings-main{
+    min-height: 911px;
+    padding: 0;
+    background-color: #fafafa;
+    /* border: 1px solid green; */
+}
+
+.settings-body{
+    height: 849px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* border: 1px solid red; */
+}
+
+.goBack-changePassword{
+    height: 60px;
+    /* border: 1px solid blue; */
+}
+
+.goBack-changePassword a{
+    color: #121212;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.5rem;
+    letter-spacing: 0.5px;
+}
+
+.change-password-container{
+    height: 700px;
+    position: relative;
+    /* border: 1px solid red; */
+}
+
+.change-password{
+    width: 100%;
+    height: 580px;
+    padding: 3% 6%;
+    background-color: #fff;
+    box-shadow: 0 0 5px #12121233;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    /* border: 1px solid green; */
+}
+
+.conditions{
+    width: 100%;
+    height: 150px;
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #535353;
+    /* border: 1px solid red; */
+}
+
+.conditions ul{
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    /* border: 1px solid blue; */
+}
+
+.conditions ul li{ list-style: inside;}
+
+
+#settings-form{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    /* border: 1px solid yellow; */
+}
+
+.form-group-settings{
+    flex: 1;
+    /* border: 1px solid salmon; */
+}
+
+.form-group-settings label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #535353;
+    letter-spacing: 0.5px;
+} 
+
+.input-group-change-pass{
+    width: 100%;
+    height: 50px;
+    border: 0.5px solid #ECECEC;
+    display: flex;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+
+.input-group-change-pass input{
+    width: 90%;
+    height: 100%;
+    outline: 0;
+    border:none;
+    padding: 2% 2%;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.input-group-change-pass button{
+    width: 10%;
+    outline: none;
+    border: none;
+    background-color: #fff;
+    color: #BCBCBC;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.save-parent{
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    bottom: 0;
+    /* border: 1px solid blue; */
+}
+
+#save-changeBtn{
+    padding: 0.65em 1.1em;
+    font-size: 1.3rem;
+    /*height: 100%;
+    */border: none;
+    float: right;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    color: #fff;
+    background-color: #121212;
+}
